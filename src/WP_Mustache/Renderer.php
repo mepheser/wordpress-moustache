@@ -1,10 +1,10 @@
 <?php
-namespace mepheser\wordpress_mustache;
+namespace WP_Mustache;
 
 use Mustache_Engine;
 use Mustache_Loader_FilesystemLoader;
 
-class WP_Mustache {
+class Renderer {
 
   protected static $_instance = null;
 
