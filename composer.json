@@ -1,12 +1,12 @@
 {
   "name": "mepheser/wordpress-mustache",
-  "version": "v1.0.7",
+  "version": "v1.0.8",
   "require": {
     "mustache/mustache": "~2.5"
   },
   "autoload": {
     "psr-0": {
-      "mepheser": "src/"
+      "mepheser/wordpress_mustache": "src/"
     }
   }
 }
