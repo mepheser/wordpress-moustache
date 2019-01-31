@@ -1,6 +1,9 @@
 <?php
 namespace mepheser\wordpress_mustache;
 
+use Mustache_Engine;
+use Mustache_Loader_FilesystemLoader;
+
 class WP_Mustache {
 
   protected static $_instance = null;
@@ -14,8 +17,7 @@ class WP_Mustache {
     return self::$_instance;
   }
 
-  public static function mapQuery($queryParams, $mapAdditionalFields) {
-    $query = new WP_Query($queryParams);
+  public static function mapQuery($query, $mapAdditionalFields) {
     $result = array();
 
     while ( $query->have_posts() ) {
