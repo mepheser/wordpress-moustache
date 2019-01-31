@@ -1,6 +1,6 @@
 {
   "name": "mepheser/wordpress-mustache",
-  "version": "v1.0.6",
+  "version": "v1.0.7",
   "require": {
     "mustache/mustache": "~2.5"
   },
