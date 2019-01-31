@@ -5,8 +5,8 @@
     "mustache/mustache": "~2.5"
   },
   "autoload": {
-    "psr-4": {
-      "mepheser\\wordpress_mustache\\": "src/"
+    "psr-0": {
+      "mepheser": "src/"
     }
   }
 }
