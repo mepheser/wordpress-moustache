@@ -5,8 +5,8 @@
     "mustache/mustache": "~2.5"
   },
   "autoload": {
-    "psr-0": {
-      "WP_Mustache": "src/"
+    "psr-4": {
+      "WpMustache\\": "src/"
     }
   }
 }

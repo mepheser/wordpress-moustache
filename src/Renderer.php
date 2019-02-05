@@ -1,8 +1,6 @@
 <?php
-namespace WP_Mustache;
 
-use Mustache_Engine;
-use Mustache_Loader_FilesystemLoader;
+namespace WpMustache;
 
 class Renderer {
 
